@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+h1{
+    color:#e71062;
+    background-color:yellow
+}
+h3{
+    color: rgb(15, 240, 146, 0.856);
+    background-color: whitesmoke;
+}
+.follow{
+    border:solid;  
+    background-color:#707B7C;
+    display: flex;
+    justify-content:space-between;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   border:solid;
+   border-width: 5px;
+   border-top-color: midnightblue;
+   border-bottom-color: crimson ;
+   border-right-color: springgreen;
+   border-left-color: teal;
+   padding:20px;
+   margin:40px
+}
+
+.about{
+    color: #a30951ea;
+    background-color:  #0ac587;
+    font-family: Neoclassical;
+    font-size:24;
+    margin:40px;
+    padding:20px;
+    text-align:center;
+}
+.
+a:link{
+    color:red;
+}
+a:visited{
+    color: #34495E ;
+}
