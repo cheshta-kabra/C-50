@@ -3,11 +3,13 @@ body{
 }
 h1{
     color:#e71062;
-    background-color:yellow
+    background-color:yellow;
+    text-align:center;
 }
 h3{
     color: rgb(15, 240, 146, 0.856);
     background-color: whitesmoke;
+    text-align:center;
 }
 .follow{
     border:solid;  
@@ -18,7 +20,7 @@ h3{
 .images{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:space-around;
    border:solid;
    border-width: 5px;
    border-top-color: midnightblue;
@@ -26,7 +28,7 @@ h3{
    border-right-color: springgreen;
    border-left-color: teal;
    padding:20px;
-   margin:40px
+   margin:40px;
 }
 
 .about{
@@ -40,8 +42,38 @@ h3{
 }
 .
 a:link{
-    color:red;
+    color:rgb(35, 17, 190);
+    font-size:20;
 }
 a:visited{
-    color: #34495E ;
+    color: #ff006c ;
+    font-size:20;
+    font-family:sans-serif;
+}
+*{
+    border:dashed;
+    border-top-color: rgb(97, 18, 161);
+    border-bottom-color: #2471A3 ;
+    border-right-color: #F7F9F9;
+    border-left-color: #117A65 ;
+    margin-left:30px;
+    margin-top: 20px;
+    order: 5;
+}
+.words{
+    color: #006b3c ;
+    font-size:22;
+    font-family:sans-serif;
+    background-color:  #fff600;
+}
+#ww{
+height:120px;
+width:120px;
+}
+h2{
+    text-align:center;
+}
+p{
+    color: #00b191;
+    background-color: #efe1cd;
 }
